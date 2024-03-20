@@ -72,7 +72,7 @@ apps:
 
   - name: yantra-cop-msg-handler
     image: yantra-cop-msg-handler
-    version: "0.98"
+    version: "0.99"
     ingresspath: /api/cop/msg
     configMap: common-app-config
     volumes:
